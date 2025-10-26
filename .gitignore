@@ -43,3 +43,44 @@ application.properties
 /build
 /.pnp
 .pnp.js
+# ===============================
+# Spring Boot / Java
+# ===============================
+/backend/build/
+!/backend/src/main/resources/static/
+!/backend/src/main/resources/public/
+!/backend/src/main/resources/templates/
+!/backend/src/main/resources/application.properties
+/backend/.gradle/
+/backend/.idea/
+/backend/out/
+/backend/*.iml
+
+# Eclipse / IntelliJ
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+/.idea/
+/*.iml
+/.vscode/
+
+# ===============================
+# React / Node
+# ===============================
+/frontend/node_modules/
+/frontend/build/
+/frontend/.pnp/
+/frontend/.pnp.js
+/frontend/.env.local
+/frontend/.env.*.local
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
